@@ -1,0 +1,21 @@
+{
+  "name": "recommend-me-a-career",
+  "version": "1.0.0",
+  "description": "",
+  "main": "questions.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasith/recommend-me-a-career.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasith/recommend-me-a-career/issues"
+  },
+  "homepage": "https://github.com/hasith/recommend-me-a-career#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.32.0"
+  }
+}
