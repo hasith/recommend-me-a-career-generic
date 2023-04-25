@@ -331,10 +331,10 @@ const quizData = {
             ]
         },
         {
-            "Caption": "How familiar are you with business concepts and enterprise operations?",
+            "Caption": "How good are you with business and enterprise concepts?",
             "Answers": [
                 {
-                    "Caption": "I love learning about different businesses and industries and know a lot about them",
+                    "Caption": "I love learning about different industries and know a lot about them",
                     "Careers": [
                         "Data Scientist",
                         "UX Professional",
@@ -343,7 +343,7 @@ const quizData = {
                     ]
                 },
                 {
-                    "Caption": "I have some knowledge about business concepts and can understand them",
+                    "Caption": "I have some interest about businesses and can understand them",
                     "Careers": [
                         "Full Stack Developer",
                         "Web Developer",
@@ -354,7 +354,7 @@ const quizData = {
                     ]
                 },
                 {
-                    "Caption": "I have limited knowledge about businesses and not much of an interest",
+                    "Caption": "I have limited knowledge on businesses and not much of an interest",
                     "Careers": [
                         "Security Professional",
                         "Systems Administrator",

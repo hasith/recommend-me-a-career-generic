@@ -6,9 +6,12 @@ const backBtn = document.getElementById("back");
 const tryAgainBtn = document.getElementById("tryAgain");
 const resultEl = document.getElementById("result");
 const careerListEl = document.getElementById("careerList");
+const careerLogEl = document.getElementById("log");
 
 let currentQuestion = 0;
+const resultCount  = 10;
 const careerLists = [];
+const showLog = new URLSearchParams(window.location.search).get('log');
 
 function displayQuestion() {
     quizForm.innerHTML = ""; // Clear the previous question
@@ -55,6 +58,7 @@ function tryAgain() {
     quizForm.classList.remove("hidden");
     nextBtn.classList.remove("hidden");
     backBtn.classList.remove("hidden");
+    careerLogEl.classList.add("hidden");
 }
 
 function calculateResults() {
@@ -64,6 +68,24 @@ function calculateResults() {
     userChoices.forEach((choice) => {
         const careers = quizData.Questions[currentQuestion - 1].Answers[choice].Careers;
         careerLists[currentQuestion] = careers;
+    });
+}
+
+function displayLog() {
+    const careerLogListEl = document.getElementById("careerLog");
+    careerLogListEl.innerHTML = ""; //clear the previous list
+    careerLogEl.classList.remove("hidden");
+    careerLists.forEach((list, index) => {
+        const listEl = document.createElement("ul");
+        list.forEach(career => {
+            const listItem = document.createElement("li");
+            listItem.textContent = career;
+            listEl.appendChild(listItem);
+        });
+        const label = document.createElement("label");
+        label.textContent = "Q:" + (index) + " - " + quizData.Questions[index - 1].Caption;
+        careerLogEl.appendChild(label);
+        careerLogEl.appendChild(listEl);
     });
 }
 
@@ -80,13 +102,14 @@ function displayResult() {
         });
     });
 
-    const recommendedCareers = Object.entries(careerCount).sort((a, b) => b[1] - a[1]).slice(0, 5);
+    const recommendedCareers = Object.entries(careerCount).sort((a, b) => b[1] - a[1]).slice(0, resultCount);
 
     careerListEl.innerHTML = ""; //clear the previous list
 
-    recommendedCareers.forEach(([career]) => {
+    recommendedCareers.forEach(([career], index) => {
         const listItem = document.createElement("li");
         listItem.textContent = career;
+        (index < 3) && listItem.classList.add("highlight")
         careerListEl.appendChild(listItem);
     });
 
@@ -96,12 +119,15 @@ function displayResult() {
 nextBtn.addEventListener("click", () => {
     if (quizForm.reportValidity()) {
         currentQuestion++;
+        calculateResults();
 
         if (currentQuestion < quizData.Questions.length) {
-            calculateResults()
             displayQuestion();
         } else {
             displayResult();
+            if(showLog) {
+                displayLog();
+            }
         }
     }
 });
