@@ -62,7 +62,7 @@ function calculateResults() {
     const userChoices = Array.from(formData.values());
 
     userChoices.forEach((choice) => {
-        const careers = quizData.Questions[currentQuestion-1].Answers[choice].Careers;
+        const careers = quizData.Questions[currentQuestion - 1].Answers[choice].Careers;
         careerLists[currentQuestion] = careers;
     });
 }
