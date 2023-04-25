@@ -29,7 +29,8 @@ const quizData = {
                         "Software Tester",
                         "Digital Marketing Professional",
                         "Web Developer",
-                        "Graphic Designer"
+                        "Graphic Designer",
+                        "Business Analyst"
                     ]
                 }
             ]
@@ -37,16 +38,6 @@ const quizData = {
         {
             "Caption": "How do you handle stress?",
             "Answers": [
-                {
-                    "Caption": "I can easily stay productive under pressure",
-                    "Careers": [
-                        "Full Stack Developer",
-                        "DevOps Professional",
-                        "Security Professional",
-                        "Cloud Developer",
-                        "Systems Administrator"
-                    ]
-                },
                 {
                     "Caption": "I struggle under pressure and need regular breaks",
                     "Careers": [
@@ -58,12 +49,23 @@ const quizData = {
                     ]
                 },
                 {
+                    "Caption": "I can easily stay productive under pressure",
+                    "Careers": [
+                        "Full Stack Developer",
+                        "DevOps Professional",
+                        "Security Professional",
+                        "Cloud Developer",
+                        "Systems Administrator"
+                    ]
+                },
+                {
                     "Caption": "I ask for help from others when under pressure",
                     "Careers": [
                         "Mobile Developer",
                         "UX Professional",
                         "Digital Marketing Professional",
-                        "Web Developer"
+                        "Web Developer",
+                        "Business Analyst"
                     ]
                 }
             ]
@@ -81,6 +83,17 @@ const quizData = {
                     ]
                 },
                 {
+                    "Caption": "I try different ways and get opinion from others",
+                    "Careers": [
+                        "UX Professional",
+                        "Web Developer",
+                        "Mobile Developer",
+                        "Digital Marketing Professional",
+                        "Graphic Designer",
+                        "Business Analyst"
+                    ]
+                },
+                {
                     "Caption": "I follow known procedures to solve a problem",
                     "Careers": [
                         "DevOps Professional",
@@ -88,16 +101,6 @@ const quizData = {
                         "Security Professional",
                         "Software Tester",
                         "Systems Administrator"
-                    ]
-                },
-                {
-                    "Caption": "I try different ways and get opinion from others",
-                    "Careers": [
-                        "UX Professional",
-                        "Web Developer",
-                        "Mobile Developer",
-                        "Digital Marketing Professional",
-                        "Graphic Designer"
                     ]
                 }
             ]
@@ -122,7 +125,8 @@ const quizData = {
                         "DevOps Professional",
                         "Security Professional",
                         "Software Tester",
-                        "Systems Administrator"
+                        "Systems Administrator",
+                        "Business Analyst"
                     ]
                 },
                 {
@@ -140,6 +144,16 @@ const quizData = {
             "Caption": "How do you make decisions?",
             "Answers": [
                 {
+                    "Caption": "I ask others and collaborate on decision making",
+                    "Careers": [
+                        "Mobile Developer",
+                        "UX Professional",
+                        "Digital Marketing Professional",
+                        "Web Developer",
+                        "Graphic Designer"
+                    ]
+                },
+                {
                     "Caption": "I make decisions quickly and independently",
                     "Careers": [
                         "Full Stack Developer",
@@ -155,17 +169,8 @@ const quizData = {
                         "Software Tester",
                         "Automation Engineer",
                         "Script Programmer",
-                        "Systems Administrator"
-                    ]
-                },
-                {
-                    "Caption": "I ask others and collaborate on decision making",
-                    "Careers": [
-                        "Mobile Developer",
-                        "UX Professional",
-                        "Digital Marketing Professional",
-                        "Web Developer",
-                        "Graphic Designer"
+                        "Systems Administrator",
+                        "Business Analyst"
                     ]
                 }
             ]
@@ -194,7 +199,8 @@ const quizData = {
                         "Automation Engineer",
                         "UX Professional",
                         "Software Tester",
-                        "Graphic Designer"
+                        "Graphic Designer",
+                        "Business Analyst"
                     ]
                 }
             ]
@@ -209,6 +215,7 @@ const quizData = {
                         "Digital Marketing Professional",
                         "Cloud Developer",
                         "Data Scientist",
+                        "Business Analyst"
                     ]
                 },
                 {
@@ -262,7 +269,8 @@ const quizData = {
                         "Software Tester",
                         "Automation Engineer",
                         "Security Professional",
-                        "Systems Administrator"
+                        "Systems Administrator",
+                        "Business Analyst"
                     ]
                 }
             ]
@@ -296,7 +304,8 @@ const quizData = {
                         "Web Developer",
                         "Digital Marketing Professional",
                         "UX Professional",
-                        "Graphic Designer"
+                        "Graphic Designer",
+                        "Business Analyst"
                     ]
                 }
             ]
@@ -312,7 +321,8 @@ const quizData = {
                         "Full Stack Developer",
                         "Cloud Developer",
                         "Web Developer",
-                        "Digital Marketing Professional"
+                        "Digital Marketing Professional",
+                        "Business Analyst"
                     ]
                 },
                 {
