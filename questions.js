@@ -290,7 +290,7 @@ const quizData = {
                     ]
                 },
                 {
-                    "Caption": "I like challenging problems and do not enjoy working on repetitive tasks",
+                    "Caption": "I like challenging problems and do NOT enjoy repetitive tasks",
                     "Careers": [
                         "Full Stack Developer",
                         "Cloud Developer",
