@@ -1,6 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
   margin: 0;
   padding: 0;
   display: flex;
@@ -23,6 +23,8 @@ h1 {
   text-align: center;
   margin-bottom: 60px;
   color: #323131;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .quiz-container {
@@ -30,7 +32,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 20px;
   color: #606060;
@@ -42,13 +44,15 @@ input[type="radio"] {
 
 label {
   display: block;
-  background-color: #f1f1f1;
+  background-color: #f8f8f8;
   border: 1px solid #d6d6d6;
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 10px;
   cursor: pointer;
   transition: background-color 0.2s, border-color 0.2s;
+  font-size: 1.2rem;
+  color: #323131;
 }
 
 input[type="radio"]:checked + label {
@@ -59,7 +63,7 @@ input[type="radio"]:checked + label {
 
 .action-btn {
   display: inline-block;
-  width: 100px;
+  width: 130px;
   padding: 15px;
   background-color: #4caf50;
   color: white;
@@ -70,6 +74,7 @@ input[type="radio"]:checked + label {
   transition: background-color 0.2s;
   margin-bottom: 20px;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 #back {
@@ -89,6 +94,10 @@ input[type="radio"]:checked + label {
   cursor: not-allowed;
 }
 
+.hidden {
+  display: none;
+}
+
 .result {
   text-align: left;
   padding: 20px;
@@ -99,24 +108,23 @@ input[type="radio"]:checked + label {
 
 .result h2 {
   margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #323131;
 }
+
 
 li {
   margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #323131;
 }
 
-.hidden {
-  display: none;
-}
-
-.highlight {
-  background-color: lightgreen;
-}
 
 .highlight {
-  background-color: lightgreen;
-  border: 1px solid green;
-  color: green;
+  background-color: #e3fbe4;
+  color: #ffffff;
   font-weight: bold;
   padding: 5px;
-  }
+  color: #323131;
+}

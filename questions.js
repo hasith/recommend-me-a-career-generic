@@ -9,7 +9,7 @@ const quizData = {
                         "Data Scientist",
                         "Full Stack Developer",
                         "Cloud Developer",
-                        "Script Programmer"
+                        "Python Programmer"
                     ]
                 },
                 {
@@ -40,7 +40,7 @@ const quizData = {
                         "Data Scientist",
                         "Software Tester",
                         "Software Automation Engineer",
-                        "Script Programmer",
+                        "Python Programmer",
                     ]
                 },
                 {
@@ -71,7 +71,7 @@ const quizData = {
                         "Full Stack Developer",
                         "Data Scientist",
                         "Cloud Developer",
-                        "Script Programmer"
+                        "Python Programmer"
                     ]
                 },
                 {
@@ -100,7 +100,7 @@ const quizData = {
                     "Caption": "I learn by doing things hands-on by myself",
                     "Careers": [
                         "Full Stack Developer",
-                        "Script Programmer",
+                        "Python Programmer",
                         "Cloud Developer",
                         "Data Scientist"
                     ]
@@ -150,7 +150,7 @@ const quizData = {
                         "DevOps Professional",
                         "Software Tester",
                         "Software Automation Engineer",
-                        "Script Programmer"
+                        "Python Programmer"
                     ]
                 }
             ]
@@ -171,7 +171,7 @@ const quizData = {
                 {
                     "Caption": "I like to prioritize and focus on one task at a time",
                     "Careers": [
-                        "Script Programmer",
+                        "Python Programmer",
                         "Security Professional",
                         "Data Scientist",
                         "Software Automation Engineer",
@@ -205,7 +205,7 @@ const quizData = {
                 {
                     "Caption": "I like to work independently to avoid distractions",
                     "Careers": [
-                        "Script Programmer",
+                        "Python Programmer",
                         "Software Automation Engineer",
                         "Security Professional"
                     ]
@@ -228,7 +228,7 @@ const quizData = {
                     "Caption": "I carefully take calculated risks but always look at practicality",
                     "Careers": [
                         "DevOps Professional",
-                        "Script Programmer",
+                        "Python Programmer",
                         "Web Developer",
                         "Data Scientist"
                     ]
@@ -249,7 +249,7 @@ const quizData = {
                 {
                     "Caption": "I'm a perfectionist and like to correct even minor details",
                     "Careers": [
-                        "Script Programmer",
+                        "Python Programmer",
                         "Software Tester",
                         "Security Professional",
                         "DevOps Professional",
@@ -295,7 +295,7 @@ const quizData = {
                         "Software Tester",
                         "DevOps Professional",
                         "Data Scientist",
-                        "Script Programmer"
+                        "Python Programmer"
                     ]
                 }
             ]
@@ -326,7 +326,7 @@ const quizData = {
                         "Security Professional",
                         "Software Automation Engineer",
                         "DevOps Professional",
-                        "Script Programmer",
+                        "Python Programmer",
                     ]
                 }
             ]

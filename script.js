@@ -108,12 +108,12 @@ function displayResult() {
 
     recommendedCareers.forEach(([career], index) => {
         const listItem = document.createElement("li");
+        const anchor = document.createElement("a");
+        anchor.href = links[career];
         if (index < 3) {
             listItem.classList.add("highlight");
             career = career + " (Recommended)";
         } 
-        const anchor = document.createElement("a");
-        anchor.href = links[career];
         anchor.textContent = career;
         listItem.appendChild(anchor);
 
