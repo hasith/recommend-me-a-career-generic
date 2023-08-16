@@ -108,23 +108,32 @@ input[type="radio"]:checked + label {
 
 .result h2 {
   margin-bottom: 30px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #323131;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 li {
-  margin-bottom: 10px;
-  font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-size: 1.0rem;
   color: #323131;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
 }
 
-
 .highlight {
-  background-color: #e3fbe4;
-  color: #ffffff;
-  font-weight: bold;
-  padding: 5px;
+  background-color: #aeebb0;
   color: #323131;
+  padding: 10px;
+  border-radius: 5px;
 }

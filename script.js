@@ -110,6 +110,7 @@ function displayResult() {
         const listItem = document.createElement("li");
         const anchor = document.createElement("a");
         anchor.href = links[career];
+        anchor.target = "_blank";
         if (index < 3) {
             listItem.classList.add("highlight");
             career = career + " (Recommended)";
