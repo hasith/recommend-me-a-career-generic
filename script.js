@@ -108,8 +108,15 @@ function displayResult() {
 
     recommendedCareers.forEach(([career], index) => {
         const listItem = document.createElement("li");
-        listItem.textContent = career;
-        (index < 3) && listItem.classList.add("highlight")
+        if (index < 3) {
+            listItem.classList.add("highlight");
+            career = career + " (Recommended)";
+        } 
+        const anchor = document.createElement("a");
+        anchor.href = links[career];
+        anchor.textContent = career;
+        listItem.appendChild(anchor);
+
         careerListEl.appendChild(listItem);
     });
 

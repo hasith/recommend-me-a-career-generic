@@ -112,3 +112,11 @@ li {
 .highlight {
   background-color: lightgreen;
 }
+
+.highlight {
+  background-color: lightgreen;
+  border: 1px solid green;
+  color: green;
+  font-weight: bold;
+  padding: 5px;
+  }
