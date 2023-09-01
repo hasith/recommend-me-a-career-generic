@@ -38,6 +38,12 @@ h2 {
   color: #606060;
 }
 
+h3 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #606060;
+}
+
 input[type="radio"] {
   display: none;
 }
