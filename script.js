@@ -20,6 +20,7 @@ function displayQuestion() {
     const questionContainer = document.createElement("div");
     const questionCaption = document.createElement("h2");
 
+    const questionNumber = currentQuestion + 1 + "/" + quizData.Questions.length + ": ";
     questionCaption.textContent = questionData.Caption;
     questionContainer.appendChild(questionCaption);
 
