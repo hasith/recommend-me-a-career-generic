@@ -18,9 +18,13 @@ function displayQuestion() {
 
     const questionData = quizData.Questions[currentQuestion];
     const questionContainer = document.createElement("div");
+    const questionNumber = document.createElement("h3");
     const questionCaption = document.createElement("h2");
 
+    const index = currentQuestion + 1;
+    questionNumber.textContent = "Question " + index + "/" + quizData.Questions.length;
     questionCaption.textContent = questionData.Caption;
+    questionContainer.appendChild(questionNumber);
     questionContainer.appendChild(questionCaption);
 
     questionData.Answers.forEach((answer, index) => {
