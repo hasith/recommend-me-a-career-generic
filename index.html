@@ -9,6 +9,18 @@
 </head>
 
 <body>
+  <header>
+    <div class="logo">
+      <a class="navbar-brand" href="https://open.uom.lk/index.html">
+        <img src="https://open.uom.lk/assets/images/logo.png" alt="">
+      </a>
+    </div>
+    <div class="header-right">
+      <a href="https://open.uom.lk/recommend.html" class="courses-link">Courses</a>
+      <a href="https://open.uom.lk/lms/my" class="login-btn">Login</a>
+    </div>
+  </header>
+
   <div class="container">
     <h1>Which tech job is best for my personality?</h1>
     <form id="quiz-form" class="quiz-container">
@@ -18,10 +30,10 @@
     <button id="next" class="action-btn">Next</button>
 
     <div id="result" class="result hidden">
-      <h2>Recommended careers in priority order</h2>
+      <h2>Recommended careers for you in priority order are:</h2>
       <ol id="careerList"></ol>
       <!-- add try again button-->
-      <button id="tryAgain" class="action-btn">Try Again</button>
+      <button id="tryAgain" class="action-btn try-again">Try Again</button>
     </div>
     <div id="log" class="hidden">
       <h2>Answer Log</h2>
